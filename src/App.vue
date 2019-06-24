@@ -4,7 +4,7 @@
     <div>
       <hero />
       <div class="top-section">
-        <h3 class="section-title">TOP CATEGORIES</h3>
+        <h3 class="section-title">Top Topic</h3>
         <div class="categories" > 
           <!-- looping for thumbnail component -->
           <div v-for="(item, index) in categoriesList" :key="index">
@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="bottom-section">
-        <h3 class="section-title">FEATURED ARTICLE</h3>
-        <!-- accordion component -->
+        <h3 class="section-title">Goosebump</h3>
+        <Accordion/>
       </div>
     </div>
     <div class="footer">
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { Navbar, Hero, Thumbnail, BrowseButton } from "@/components";
+import { Navbar, Hero, Thumbnail, Accordion } from "@/components";
 
 export default {
   name: "app",
@@ -33,55 +33,55 @@ export default {
     Navbar,
     Hero,
     Thumbnail,
-    BrowseButton
+    Accordion
   },
   data() {
     return {
       categoriesList: [
         {
-          src: require("@/assets/images/dota_2.jpg"),
-          title: "Dota 2",
-          count: "125"
+          src: require("@/assets/images/chaos1.jpg"),
+          title: "Is This A Chaos?",
+          count: "10"
         },
         {
-          src: require("@/assets/images/fortnite.jpg"),
-          title: "Fortnite",
-          count: "81"
+          src: require("@/assets/images/chaos2.jpg"),
+          title: "The Beauty Of Chaos",
+          count: "1"
         },
         {
-          src: require("@/assets/images/lol.jpg"),
-          title: "League of Legends",
-          count: "60"
+          src: require("@/assets/images/chaos3.jpg"),
+          title: "We Need  You",
+          count: "6"
         },
         {
-          src: require("@/assets/images/pubg.jpg"),
-          title: "PUBG",
-          count: "54"
+          src: require("@/assets/images/chaos4.jpg"),
+          title: "Find The Limit",
+          count: "5"
         },
         {
-          src: require("@/assets/images/warframe.jpg"),
-          title: "Warframe",
-          count: "47"
+          src: require("@/assets/images/chaos5.png"),
+          title: "STOP",
+          count: "7"
         },
         {
-          src: require("@/assets/images/fallout76.jpg"),
-          title: "Fallout 76",
-          count: "27"
+          src: require("@/assets/images/chaos2.jpg"),
+          title: "The Beauty Of Chaos",
+          count: "1"
         },
         {
-          src: require("@/assets/images/csgo.jpg"),
-          title: "CSGO",
-          count: "23"
+          src: require("@/assets/images/chaos2.jpg"),
+          title: "The Beauty Of Chaos",
+          count: "1"
         },
         {
-          src: require("@/assets/images/hearthstone.jpg"),
-          title: "Hearthstone",
-          count: "23"
+          src: require("@/assets/images/chaos3.jpg"),
+          title: "We Need  You",
+          count: "6"
         },
         {
-          src: require("@/assets/images/overwatch.jpg"),
-          title: "Overwatch",
-          count: "120"
+          src: require("@/assets/images/chaos3.jpg"),
+          title: "We Need  You",
+          count: "6"
         }
       ]
     };
@@ -92,6 +92,10 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+#app {
+  background-color: rgba(133, 89, 218, 0.3);
+}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -132,7 +136,7 @@ export default {
 .footer {
   height: 250px;
   width: 100%;
-  background-color: #292f36;
-  border-top: 4px solid #56e39f;
+  background-color: #512da8;
+  border-top: 4px solid #8559da;
 }
 </style>

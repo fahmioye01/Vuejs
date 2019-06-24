@@ -1,10 +1,12 @@
 <template>
-    <div class="navbar">
-        <div class="nav-container">
-          <h3>LOGO</h3>
-          <burger />
-        </div>
+  <div class="navbar">
+    <div class="nav-container">
+      <h3>Home Sweet Home</h3>
+      <h3>Home Sweet Home</h3>
+      <h3>Home Sweet Home</h3>
+      <burger/>
     </div>
+  </div>
 </template>
 
 <script>
@@ -23,8 +25,8 @@ export default {
 .navbar {
   height: 50px;
   max-width: 100%;
-  background-color: #292f36;
-  border-bottom: 4px solid #56e39f;
+  background-color: #512da8;
+  border-bottom: 4px solid #8559da;
 }
 .nav-container {
   height: 100%;
@@ -34,5 +36,6 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: aliceblue;
 }
 </style>

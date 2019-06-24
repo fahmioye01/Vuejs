@@ -6,11 +6,11 @@
         >
             <div v-if="show" class="menu-content" >
               <div class="content-container">
-                <a>home</a>
-                <a>home</a>
-                <a>home</a>
-                <a>home</a>
-                <a>home</a>
+                
+                <a class="mmm">Home</a>
+                <a class="mmm">Forum</a>
+                <a class="mmm">Entertainment</a>
+                
               </div>
             </div>
         </transition>
@@ -37,7 +37,7 @@ export default {
 .menu-btn {
   font-size: 28px;
   background-color: transparent;
-  color: #56e39f;
+  color: white;
   border: none;
   outline: none;
   cursor: pointer;
@@ -48,10 +48,13 @@ export default {
   position: absolute;
   top: 54px;
   left: 0px;
-  background-color: #56e39f;
+  background-color: #8559da;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.mmm {
+  padding-right: 30px;
 }
 </style>

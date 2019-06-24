@@ -27,26 +27,20 @@ export default {
     return {
       heroList: [
         {
-          src: require("@/assets/images/dota_2.jpg"),
-          title: "Dota 2",
+          src: require("@/assets/images/chaos7.jpg"),
+          title: "Is This A Chaos",
           desc:
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ut eum temporibus voluptatem officiis cumque harum amet incidunt similique? Rem harum alias error sapiente sed nemo quia perspiciatis, nam a."
         },
         {
-          src: require("@/assets/images/dota_2.jpg"),
-          title: "Dota 2",
+          src: require("@/assets/images/chaos7.jpg"),
+          title: "Is This A Chaos",
           desc:
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ut eum temporibus voluptatem officiis cumque harum amet incidunt similique? Rem harum alias error sapiente sed nemo quia perspiciatis, nam a."
         },
         {
-          src: require("@/assets/images/dota_2.jpg"),
-          title: "Dota 2",
-          desc:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ut eum temporibus voluptatem officiis cumque harum amet incidunt similique? Rem harum alias error sapiente sed nemo quia perspiciatis, nam a."
-        },
-        {
-          src: require("@/assets/images/dota_2.jpg"),
-          title: "Dota 2",
+          src: require("@/assets/images/chaos7.jpg"),
+          title: "Is This A Chaos",
           desc:
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ut eum temporibus voluptatem officiis cumque harum amet incidunt similique? Rem harum alias error sapiente sed nemo quia perspiciatis, nam a."
         }
@@ -61,13 +55,14 @@ export default {
   padding-top: 50px;
   height: 450px;
   width: 100%;
-  background-color: #292f36;
+  background-color: rgba(133, 89, 218, 0.3);
 }
 .slider {
   margin: auto;
-  height: 400px !important;
-  width: 70% !important;
+  height: 300px !important;
+  width: 60% !important;
   z-index: 1;
+  margin-top: 30px;
 }
 .overlay {
   position: absolute;
